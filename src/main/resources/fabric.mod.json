@@ -1,32 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "template_mod",
+  "id": "nosoundwarning",
   "version": "1.0.0",
-
-  "name": "template_mod",
-  "description": "",
+  "name": "No Sound Warning",
+  "description": "Permanently yeets \"Maximum sound pool size 247 reached\" thing",
   "authors": [
     "Fallen_Breath"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/",
-    "sources": "https://github.com/"
+    "homepage": "https://github.com/Fallen-Breath/NoSoundWarning",
+    "sources": "https://github.com/Fallen-Breath/NoSoundWarning"
   },
-
-  "icon": "assets/template_mod/icon.png",
-
+  "icon": "assets/nosoundwarning/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "nosoundwarning.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.7.1",
-    "minecraft": "1.15.x"
+    "minecraft": ">=1.16"
   },
   "suggests": {
     "flamingo": "*"
