@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nosoundwarning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "No Sound Warning",
   "description": "Permanently yeets \"Maximum sound pool size 247 reached\" thing",
   "authors": [
