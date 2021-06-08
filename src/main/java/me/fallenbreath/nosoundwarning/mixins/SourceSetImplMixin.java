@@ -5,7 +5,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-@Mixin(targets = "net.minecraft.client.sound.SoundEngine$SourceSetImpl", priority = 10000)
+@Mixin(targets = "net.minecraft.client.sound.SoundEngine$SourceSetImpl", priority = 123456)
 public class SourceSetImplMixin
 {
 	@Redirect(
